@@ -7,14 +7,14 @@
 <meta name="description" content="Portfolio of Mohammed Ali Jouhar M P, Data Science & AI/ML Engineer from Kerala, India." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 <div class="grain" aria-hidden="true"></div>
 
 <nav class="nav">
-  <a href="#top" class="nav-logo">MAJ<span>.</span></a>
+  <a href="#top" class="nav-logo">MAJ<span>©</span></a>
   <div class="nav-links">
     <a href="#work">Work</a>
     <a href="#about">About</a>
@@ -24,35 +24,41 @@
 
 <!-- HERO -->
 <header class="hero" id="top">
-  <h1 class="hero-title" aria-label="Portfolio">
-    <span>PORTFOLIO</span>
+  <div class="hero-status"><span class="dot" aria-hidden="true"></span>OPEN TO WORK — 2026</div>
+  <h1 class="hero-name" aria-label="Mohammed Ali Jouhar">
+    <span>MOHAMMED</span>
+    <span class="outline">ALI</span>
+    <span>JOUHAR<em class="accent">.</em></span>
   </h1>
-  <img class="hero-photo" src="assets/portrait-hero.jpg" alt="Portrait of Mohammed Ali Jouhar" />
-  <div class="hero-tag">
-    <svg class="arrow-doodle" viewBox="0 0 60 40" aria-hidden="true"><path d="M5 5 C 25 10, 40 20, 50 32" fill="none" stroke="currentColor" stroke-width="2"/><path d="M42 30 L 51 34 L 47 25" fill="none" stroke="currentColor" stroke-width="2"/></svg>
-    <p class="hero-name-doodle">MOHD. JOUHAR</p>
+  <div class="hero-foot">
+    <img class="hero-photo" src="assets/portrait-hero.jpg" alt="Portrait of Mohammed Ali Jouhar" />
+    <p class="hero-role">DATA SCIENCE<br/>&amp; AI/ML ENGINEER</p>
+    <p class="hero-loc">BASED IN KERALA, INDIA<br/>WORKING EVERYWHERE</p>
   </div>
-  <div class="hero-stars" aria-hidden="true">✦ ✧ ❖</div>
+  <a class="hero-cue" href="#about" aria-label="Scroll down">SCROLL ↓</a>
 </header>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>MACHINE LEARNING ✦ DEEP LEARNING ✦ DATA PIPELINES ✦ PREDICTIVE MODELING ✦ FLUTTER ✦ POWER BI ✦ PYTHON ✦ STREAMLIT ✦ </span>
+    <span>MACHINE LEARNING ✦ DEEP LEARNING ✦ DATA PIPELINES ✦ PREDICTIVE MODELING ✦ FLUTTER ✦ POWER BI ✦ PYTHON ✦ STREAMLIT ✦ </span>
+  </div>
+</div>
 
 <!-- INTRO -->
 <section class="intro" id="about">
   <div class="intro-inner">
-    <h2 class="intro-hello">HELLO</h2>
-    <p class="intro-name">I'm <strong>Mohammed Ali Jouhar M P</strong>.</p>
-    <p class="intro-copy">
-      Data Science &amp; AI/ML engineer from Kerala, India. I build end-to-end machine
-      learning pipelines — data preprocessing, feature engineering, predictive modeling,
-      visualization and web deployment. BCA graduate, ex–data science intern, and a
-      builder of things that predict, analyze and ship.
-    </p>
+    <p class="intro-kicker">( ABOUT )</p>
+    <p class="intro-lead">I build end-to-end machine learning pipelines — data preprocessing, feature engineering, predictive modeling, visualization and web deployment.</p>
+    <p class="intro-copy">I'm <strong>Mohammed Ali Jouhar M P</strong>, a Data Science &amp; AI/ML engineer from Kerala, India. BCA graduate, ex–data science intern, and a builder of things that predict, analyze and ship.</p>
     <div class="intro-cta">
       <a class="btn" href="#work">SEE MY WORK ↓</a>
       <a class="btn btn-ghost" href="assets/Mohammed_Ali_Jouhar_CV.pdf" download>DOWNLOAD CV</a>
     </div>
     <div class="intro-meta">
-      <div><span class="meta-num">4+</span><span class="meta-label">projects shipped</span></div>
-      <div><span class="meta-num">3</span><span class="meta-label">internships</span></div>
+      <div><span class="meta-num">05</span><span class="meta-label">projects shipped</span></div>
+      <div><span class="meta-num">03</span><span class="meta-label">internships</span></div>
       <div><span class="meta-num">96.8%</span><span class="meta-label">best model accuracy</span></div>
     </div>
   </div>
@@ -61,51 +67,56 @@
 <!-- WORK -->
 <section class="work" id="work">
   <h2 class="section-title">SELECTED WORK<span class="count">/ 05</span></h2>
-  <div class="work-grid">
+  <div class="work-list">
 
-    <a class="card card-tall" href="assets/stock-market-app.apk" download>
-      <div class="card-media"><span class="card-tag">FLUTTER · DART · CHARTS · APK</span></div>
-      <div class="card-body">
-        <h3>Stock Market App</h3>
-        <p>Mobile app built with Flutter: login flow, stock list and a detail screen with interactive price charts and market-cap data. Install the APK directly on Android.</p>
-        <span class="card-link">DOWNLOAD APK ↓</span>
-      </div>
+    <a class="row" href="assets/stock-market-app.apk" download>
+      <span class="row-index">01</span>
+      <span class="row-main">
+        <span class="row-title">Stock Market App</span>
+        <span class="row-desc">Flutter mobile app — login flow, stock list, interactive price charts. Install the APK on Android.</span>
+        <span class="row-tags">FLUTTER · DART · CHARTS · APK</span>
+      </span>
+      <span class="row-link">DOWNLOAD ↓</span>
     </a>
 
-    <a class="card card-tall" href="https://predictive-maintenance-ai-hmalopphkmwwvmp2c4ep4q.streamlit.app/" target="_blank" rel="noopener">
-      <div class="card-media"><span class="card-tag">PYTHON · RANDOM FOREST · STREAMLIT</span></div>
-      <div class="card-body">
-        <h3>Predictive Maintenance AI</h3>
-        <p>Early-warning ML workflow predicting machine failure 24 hours ahead from IoT sensor data. 12-hour rolling features, balanced Random Forest, 96.84% test accuracy. Live Streamlit dashboard.</p>
-        <span class="card-link">OPEN LIVE ↗</span>
-      </div>
+    <a class="row" href="https://predictive-maintenance-ai-hmalopphkmwwvmp2c4ep4q.streamlit.app/" target="_blank" rel="noopener">
+      <span class="row-index">02</span>
+      <span class="row-main">
+        <span class="row-title">Predictive Maintenance AI</span>
+        <span class="row-desc">Early-warning ML predicting machine failure 24h ahead from IoT sensors. Random Forest, 96.84% accuracy. Live dashboard.</span>
+        <span class="row-tags">PYTHON · RANDOM FOREST · STREAMLIT</span>
+      </span>
+      <span class="row-link">OPEN LIVE ↗</span>
     </a>
 
-    <a class="card card-tall" href="https://github.com/jouhar-coder/Liverpool_Football_Analytics" target="_blank" rel="noopener">
-      <div class="card-media media-2"><span class="card-tag">PYTHON · SQL · POWER BI</span></div>
-      <div class="card-body">
-        <h3>Liverpool FC Analytics</h3>
-        <p>Football match performance analysis with Python, SQL and Power BI — ending in an interactive dashboard for exploring team and player performance.</p>
-        <span class="card-link">VIEW PROJECT ↗</span>
-      </div>
+    <a class="row" href="https://github.com/jouhar-coder/Liverpool_Football_Analytics" target="_blank" rel="noopener">
+      <span class="row-index">03</span>
+      <span class="row-main">
+        <span class="row-title">Liverpool FC Analytics</span>
+        <span class="row-desc">Football match performance analysis with Python, SQL and Power BI — ending in an interactive dashboard.</span>
+        <span class="row-tags">PYTHON · SQL · POWER BI</span>
+      </span>
+      <span class="row-link">VIEW PROJECT ↗</span>
     </a>
 
-    <a class="card card-tall" href="https://hi-speaking-practice.onrender.com/" target="_blank" rel="noopener">
-      <div class="card-media media-3"><span class="card-tag">HTML · CSS · JS · SPEECH API</span></div>
-      <div class="card-body">
-        <h3>HI — Speaking Practice</h3>
-        <p>Speaking-first language practice website with voice conversation support. Talk, get feedback, improve — built around the browser speech APIs.</p>
-        <span class="card-link">OPEN LIVE ↗</span>
-      </div>
+    <a class="row" href="https://hi-speaking-practice.onrender.com/" target="_blank" rel="noopener">
+      <span class="row-index">04</span>
+      <span class="row-main">
+        <span class="row-title">HI — Speaking Practice</span>
+        <span class="row-desc">Speaking-first language practice website with voice conversation support, built on browser speech APIs.</span>
+        <span class="row-tags">HTML · CSS · JS · SPEECH API</span>
+      </span>
+      <span class="row-link">OPEN LIVE ↗</span>
     </a>
 
-    <a class="card card-tall" href="https://github.com/jouhar-coder/build-personal" target="_blank" rel="noopener">
-      <div class="card-media media-5"><span class="card-tag">REACT · VITE · STORYTELLING</span></div>
-      <div class="card-body">
-        <h3>The Signal — Manga Reader</h3>
-        <p>A 6-page slow-build visual story web app: quiet radio signals, a sky that tears open. Built with React + Vite, with generated page art and a paged reader UI.</p>
-        <span class="card-link">VIEW PROJECT ↗</span>
-      </div>
+    <a class="row" href="https://github.com/jouhar-coder/build-personal" target="_blank" rel="noopener">
+      <span class="row-index">05</span>
+      <span class="row-main">
+        <span class="row-title">The Signal — Manga Reader</span>
+        <span class="row-desc">A 6-page slow-build visual story web app: quiet radio signals, a sky that tears open. React + Vite, paged reader UI.</span>
+        <span class="row-tags">REACT · VITE · STORYTELLING</span>
+      </span>
+      <span class="row-link">VIEW PROJECT ↗</span>
     </a>
 
   </div>
@@ -167,7 +178,8 @@
 
 <!-- CONTACT -->
 <footer class="contact" id="contact">
-  <h2 class="contact-big">LET'S<br/>TALK<span class="accent">.</span></h2>
+  <p class="intro-kicker">( CONTACT )</p>
+  <h2 class="contact-big">LET'S<br/>TALK<em class="accent">.</em></h2>
   <div class="contact-links">
     <a href="mailto:mhdjouhar611@gmail.com">EMAIL ↗</a>
     <a href="https://github.com/jouhar-coder" target="_blank" rel="noopener">GITHUB ↗</a>
@@ -182,7 +194,7 @@
   const io = new IntersectionObserver((entries) => {
     entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
   }, { threshold: 0.12 });
-  document.querySelectorAll('.card, .exp-row, .skill-col, .intro-inner, .section-title').forEach(el => io.observe(el));
+  document.querySelectorAll('.row, .exp-row, .skill-col, .intro-inner, .section-title').forEach(el => io.observe(el));
 </script>
 </body>
 </html>
